@@ -5,7 +5,7 @@
  */
 
 var app = require('./config/app');
-var debug = require('debug')('week344:server');
+var debug = require('debug')('assignment1:server');
 var http = require('http');
 
 /**
