@@ -16,15 +16,15 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Me' });
 });
 
-router.get('/Projects', function(req, res, next) {
-  res.render('Projects', { title: 'Projects' });
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 
-router.get('/Services', function(req, res, next) {
-  res.render('Services', { title: 'Services' });
+router.get('/services', function(req, res, next) {
+  res.render('services', { title: 'Services' });
 });
 
-router.get('/Contact', function(req, res, next) {
-  res.render('Contact', { title: 'Contact' });
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Contact' });
 });
 module.exports = router;
