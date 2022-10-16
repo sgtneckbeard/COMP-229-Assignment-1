@@ -39,6 +39,12 @@ input[type=text] {
 	box-sizing: border-box;
 }
 
+legend {
+	font-family: 'Times New Roman', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
 .innerdiv {
 	margin-top:2%;
 	margin-bottom:5%;

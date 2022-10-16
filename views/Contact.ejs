@@ -3,6 +3,7 @@
   
 
   <div class="innerdiv">
+
   <h1><%= title %></h1>
    <br>
    <h3>Here is my contact information</h3>
@@ -11,33 +12,36 @@
    <br>
    <br>
    <h3>Or fill out the form below</h3>
+
    </div>
 
    <div class="innerdiv">
-   <!--Form with first name, last name, contact number, email address, and message-->
-   <form action="/home" method="get">
-   <label for="fname">First Name</label>
-   <br>
-   <input type="text" id="fname" name="firstname" placeholder="Your name..">
-   <br>
-   <label for="lname">Last Name</label>
-   <br>
-   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-   <br>
-   <label for="contact">Contact Number</label>
-   <br>
-   <input type="text" id="contact" name="contact" placeholder="Your contact number..">
-   <br>
-   <label for="email">Email</label>
-   <br>
-   <input type="text" id="email" name="email" placeholder="Your email..">
-   <br>
-   <label for="message">Message</label>
-   <br>
-   <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-   <input type="submit" value="Submit">
-   </form>
 
+   <form action="/home" method="get">
+   <fieldset>
+    <legend>Contact Me:</legend>
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+    <label for="contact">Contact Number</label>
+    <br>
+    <input type="text" id="contact" name="contact" placeholder="Your contact number..">
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+    <br>
+    <label for="message">Message</label>
+    <br>
+    <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+   </fieldset>
+   </form>
 
    </div>
 <%-include partials/bottom_nav.ejs%>
