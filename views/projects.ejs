@@ -2,11 +2,44 @@
 <%-include partials/main_nav.ejs%>
   
 
-  
-  <h1><%= title %></h1>
-   <p>Welcome to <%= title %></p>
-<p>Our projects are as follows:</p>
+<div class="innerdiv">
 
-   <%-include partials/bottom_nav.ejs%>
+  <br>
+  <h1><%= title %></h1>
+  <br>
+  <h3 style="text-align:center">Here are some projects I have worked on during my studies:</h3>
+  <ul class="projectList">
+   <li>
+      <a href="http://studentweb.cencol.ca/nheung/COMP125/assignment1/assignment1.html" target="_blank">BMR Calculator</a>
+      <img class="imgList" src="/assets/images/bmrcalculator.png" width="600">
+      <i>Created a BMR calculator using raw javascript </i>
+   </li>
+   <br>
+   <li>
+      <a href="http://studentweb.cencol.ca/nheung/COMP125/assignment6/index.html" target="_blank">Jquery Gallery</a>
+      <img class="imgList" src="/assets/images/jquerygallery.png" width="600">
+      <i>A jquery carousel gallery with a time interval to advance each image automatically</i>
+   </li>
+   <br>
+   <li>
+      Diagrams for a Web Application
+      <img class="imgList" src="/assets/images/erd.png" width="600">
+      <i>Co-lead of a group project to propose a potential application and draft an SRS document including a variety of diagrams 
+         including domain class diagrams, entity relationship diagrams, and system sequence diagrams</i>
+   </li>
+   <br>
+   <li>
+      <a href="http://studentweb.cencol.ca/nheung/COMP125/assignment4/assignment4.html" target="_blank">A form with dynamic validation</a>
+      <img class="imgList" src="/assets/images/form.png" width="600">
+      <i>A form which will alert the user of valid or invalid entires in the form fields in real time prior to submission.</i>
+   </li>
+  </ul>
+
+
+
+
+</div>
+
+<%-include partials/bottom_nav.ejs%>
 <%-include partials/footer.ejs%>   
 

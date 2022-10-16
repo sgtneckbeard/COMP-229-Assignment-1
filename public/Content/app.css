@@ -11,8 +11,7 @@ h1 {
 
 h4 {
     color: rgb(26, 53, 26);
-    text-align: center;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 li {
@@ -29,15 +28,33 @@ ul {
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #f2fdfd;
-	width:40%;
+	width:60%;
 	border: 2px solid #8f0377;
 	box-shadow: 5px 5px rgb(105, 105, 105);
 	padding: 2%;
 	border-radius: 25px;
 }
 
+.projectList {
+    text-align: center;
+    list-style: none;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projectList li {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.imgList {
+    border: 2px solid #8f0377;
 }
