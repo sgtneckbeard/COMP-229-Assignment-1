@@ -45,6 +45,15 @@ legend {
     font-weight: bold;
 }
 
+.navbar-brand {
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand:hover {
+    color: rgb(180, 180, 180);
+}
+
 .innerdiv {
 	margin-top:2%;
 	margin-bottom:5%;
@@ -76,6 +85,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.navImg {
+    width: 100px;
+    height: 60px;
 }
 
 .imgList {
